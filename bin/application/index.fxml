@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="714.0" prefWidth="1066.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <SplitPane dividerPositions="0.04694167852062589" layoutY="7.0" orientation="VERTICAL" prefHeight="705.0" prefWidth="1066.0" style="-fx-background-color: #0097FF;">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <Button layoutX="977.0" layoutY="3.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="27.0" />
+                  <Button layoutX="942.0" layoutY="4.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="27.0" text="-" />
+                  <Button layoutX="1012.0" layoutY="2.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="27.0" text="X" />
+                  <Text fill="#0e055e" layoutX="33.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" text="短 信 链 接 采 集 系 统">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <Button layoutX="435.0" layoutY="209.0" mnemonicParsing="false" prefHeight="220.0" prefWidth="226.0" style="-fx-background-radius: 150;" text="导入" textFill="#751414">
+                     <font>
+                        <Font name="System Bold Italic" size="44.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
